@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  hacksprint:
+    container_name: hacksprint
+    build:
+      context: .
+    ports:
+      - "8000:8000"
